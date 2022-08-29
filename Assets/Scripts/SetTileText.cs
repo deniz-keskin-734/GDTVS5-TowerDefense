@@ -21,7 +21,7 @@ public class SetTileText : MonoBehaviour
 
     void Update()
     {
-        if(Application.isEditor && !Application.isPlaying)
+        if(!Application.isPlaying)
         {
             DisplayCoordinates();
         }
